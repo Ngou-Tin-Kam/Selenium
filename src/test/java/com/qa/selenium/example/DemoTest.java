@@ -1,4 +1,4 @@
-package com.qa.selenium;
+package com.qa.selenium.example;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
