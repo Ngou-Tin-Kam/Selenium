@@ -26,7 +26,6 @@ public class ShoppingTest {
     void setup() {
         this.driver = new ChromeDriver();
         this.driver.manage().window().maximize();
-        driver.findElement(By.tagName("html")).sendKeys(Keys.chord(Keys.CONTROL,Keys.SUBTRACT));
     }
 
     @Test
