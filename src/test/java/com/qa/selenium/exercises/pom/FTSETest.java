@@ -31,7 +31,7 @@ public class FTSETest {
         RisersPage riserPage = PageFactory.initElements(this.driver, RisersPage.class);
         String result = riserPage.getTopRiserResult();
 
-        assertEquals("RS Group plc", result);
+        assertEquals("Prudential plc", result);
     }
 
     @Test
